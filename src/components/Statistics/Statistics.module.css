@@ -1,6 +1,6 @@
 .statisticsContainer {
   max-width: 50%;
-  margin-top: 5vh;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 10px;
@@ -9,7 +9,7 @@
 
 .title {
   margin: 0;
-  padding: 40px;
+  padding: 40px 100px;
   text-transform: uppercase;
   text-align: center;
   color: #000;
