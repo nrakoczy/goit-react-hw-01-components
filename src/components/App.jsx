@@ -9,7 +9,7 @@ import transactions from './TransactionHistory/transactions.json';
 
 export const App = ({ children }) => {
   return (
-    <div 
+    <div
       style={{
         display: 'flex',
         flexDirection: 'column',
@@ -28,10 +28,8 @@ export const App = ({ children }) => {
         followers={user.stats.followers}
         likes={user.stats.likes}
         views={user.stats.views}
-      
       />
       <Statistics title="Upload stats" stats={data} />
-     
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
